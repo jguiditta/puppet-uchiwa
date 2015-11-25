@@ -11,6 +11,8 @@ group :development, :test do
   gem 'beaker',                  :require => false
   gem 'beaker-rspec', "~> 2.2.4",:require => false
   gem 'pry',                     :require => false
+  gem 'syck',                    :require => false
+  gem 'safe_yaml',               :require => false
   gem 'simplecov',               :require => false
   gem 'vagrant-wrapper',         :require => false
 end
